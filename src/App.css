@@ -1,0 +1,44 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  background-image: url("c:\Users\kishore\Downloads\16352092_v856-kul-07a.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* Margin Top classes */
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+/* Centering the Add User button */
+button {
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Adjusting table styles */
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .table-responsive {
+    overflow-x: scroll;
+  }
+}
